@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17075630F048A2DB9E767F19 /* Pods_MoyaGetWeatherFromOpenWeatherMapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A66930716719277BE72593 /* Pods_MoyaGetWeatherFromOpenWeatherMapTests.framework */; };
+		772885D898C8459608A04AF6 /* Pods_MoyaGetWeatherFromOpenWeatherMap_MoyaGetWeatherFromOpenWeatherMapUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB1DEFBF5C6BFC45E7BA51B1 /* Pods_MoyaGetWeatherFromOpenWeatherMap_MoyaGetWeatherFromOpenWeatherMapUITests.framework */; };
 		FAF0051125C2B73200F79AA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF0051025C2B73200F79AA6 /* AppDelegate.swift */; };
 		FAF0051325C2B73200F79AA6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF0051225C2B73200F79AA6 /* SceneDelegate.swift */; };
 		FAF0051525C2B73200F79AA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF0051425C2B73200F79AA6 /* ViewController.swift */; };
@@ -15,6 +17,9 @@
 		FAF0051D25C2B73400F79AA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF0051B25C2B73400F79AA6 /* LaunchScreen.storyboard */; };
 		FAF0052825C2B73400F79AA6 /* MoyaGetWeatherFromOpenWeatherMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF0052725C2B73400F79AA6 /* MoyaGetWeatherFromOpenWeatherMapTests.swift */; };
 		FAF0053325C2B73400F79AA6 /* MoyaGetWeatherFromOpenWeatherMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF0053225C2B73400F79AA6 /* MoyaGetWeatherFromOpenWeatherMapUITests.swift */; };
+		FAF0055925C2D54500F79AA6 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF0055825C2D54500F79AA6 /* RequestManager.swift */; };
+		FAF0056125C2F02C00F79AA6 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF0056025C2F02C00F79AA6 /* Weather.swift */; };
+		FCDB885D3D77419B5030F490 /* Pods_MoyaGetWeatherFromOpenWeatherMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17BB8FDBEE32EC1789B075B7 /* Pods_MoyaGetWeatherFromOpenWeatherMap.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08A66930716719277BE72593 /* Pods_MoyaGetWeatherFromOpenWeatherMapTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoyaGetWeatherFromOpenWeatherMapTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17BB8FDBEE32EC1789B075B7 /* Pods_MoyaGetWeatherFromOpenWeatherMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoyaGetWeatherFromOpenWeatherMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CDE88B5726D36461029FC63 /* Pods-MoyaGetWeatherFromOpenWeatherMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaGetWeatherFromOpenWeatherMap.debug.xcconfig"; path = "Target Support Files/Pods-MoyaGetWeatherFromOpenWeatherMap/Pods-MoyaGetWeatherFromOpenWeatherMap.debug.xcconfig"; sourceTree = "<group>"; };
+		67588F28DCFB4D5C7E68E3BB /* Pods-MoyaGetWeatherFromOpenWeatherMap-MoyaGetWeatherFromOpenWeatherMapUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaGetWeatherFromOpenWeatherMap-MoyaGetWeatherFromOpenWeatherMapUITests.release.xcconfig"; path = "Target Support Files/Pods-MoyaGetWeatherFromOpenWeatherMap-MoyaGetWeatherFromOpenWeatherMapUITests/Pods-MoyaGetWeatherFromOpenWeatherMap-MoyaGetWeatherFromOpenWeatherMapUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A070AE2F5D693645F0328CE7 /* Pods-MoyaGetWeatherFromOpenWeatherMapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaGetWeatherFromOpenWeatherMapTests.release.xcconfig"; path = "Target Support Files/Pods-MoyaGetWeatherFromOpenWeatherMapTests/Pods-MoyaGetWeatherFromOpenWeatherMapTests.release.xcconfig"; sourceTree = "<group>"; };
+		B677C438750355DE17747868 /* Pods-MoyaGetWeatherFromOpenWeatherMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaGetWeatherFromOpenWeatherMap.release.xcconfig"; path = "Target Support Files/Pods-MoyaGetWeatherFromOpenWeatherMap/Pods-MoyaGetWeatherFromOpenWeatherMap.release.xcconfig"; sourceTree = "<group>"; };
+		B769A48D1803EB3256215757 /* Pods-MoyaGetWeatherFromOpenWeatherMapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaGetWeatherFromOpenWeatherMapTests.debug.xcconfig"; path = "Target Support Files/Pods-MoyaGetWeatherFromOpenWeatherMapTests/Pods-MoyaGetWeatherFromOpenWeatherMapTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB1DEFBF5C6BFC45E7BA51B1 /* Pods_MoyaGetWeatherFromOpenWeatherMap_MoyaGetWeatherFromOpenWeatherMapUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoyaGetWeatherFromOpenWeatherMap_MoyaGetWeatherFromOpenWeatherMapUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C373E9AC6DC5B5D83AF1BD96 /* Pods-MoyaGetWeatherFromOpenWeatherMap-MoyaGetWeatherFromOpenWeatherMapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaGetWeatherFromOpenWeatherMap-MoyaGetWeatherFromOpenWeatherMapUITests.debug.xcconfig"; path = "Target Support Files/Pods-MoyaGetWeatherFromOpenWeatherMap-MoyaGetWeatherFromOpenWeatherMapUITests/Pods-MoyaGetWeatherFromOpenWeatherMap-MoyaGetWeatherFromOpenWeatherMapUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FAF0050D25C2B73200F79AA6 /* MoyaGetWeatherFromOpenWeatherMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoyaGetWeatherFromOpenWeatherMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF0051025C2B73200F79AA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAF0051225C2B73200F79AA6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +63,8 @@
 		FAF0052E25C2B73400F79AA6 /* MoyaGetWeatherFromOpenWeatherMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoyaGetWeatherFromOpenWeatherMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF0053225C2B73400F79AA6 /* MoyaGetWeatherFromOpenWeatherMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaGetWeatherFromOpenWeatherMapUITests.swift; sourceTree = "<group>"; };
 		FAF0053425C2B73400F79AA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF0055825C2D54500F79AA6 /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		FAF0056025C2F02C00F79AA6 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCDB885D3D77419B5030F490 /* Pods_MoyaGetWeatherFromOpenWeatherMap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17075630F048A2DB9E767F19 /* Pods_MoyaGetWeatherFromOpenWeatherMapTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +88,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				772885D898C8459608A04AF6 /* Pods_MoyaGetWeatherFromOpenWeatherMap_MoyaGetWeatherFromOpenWeatherMapUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B083732825B5F3F8D22501E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CDE88B5726D36461029FC63 /* Pods-MoyaGetWeatherFromOpenWeatherMap.debug.xcconfig */,
+				B677C438750355DE17747868 /* Pods-MoyaGetWeatherFromOpenWeatherMap.release.xcconfig */,
+				C373E9AC6DC5B5D83AF1BD96 /* Pods-MoyaGetWeatherFromOpenWeatherMap-MoyaGetWeatherFromOpenWeatherMapUITests.debug.xcconfig */,
+				67588F28DCFB4D5C7E68E3BB /* Pods-MoyaGetWeatherFromOpenWeatherMap-MoyaGetWeatherFromOpenWeatherMapUITests.release.xcconfig */,
+				B769A48D1803EB3256215757 /* Pods-MoyaGetWeatherFromOpenWeatherMapTests.debug.xcconfig */,
+				A070AE2F5D693645F0328CE7 /* Pods-MoyaGetWeatherFromOpenWeatherMapTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8B5C50D32410AAF412F6F69F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17BB8FDBEE32EC1789B075B7 /* Pods_MoyaGetWeatherFromOpenWeatherMap.framework */,
+				BB1DEFBF5C6BFC45E7BA51B1 /* Pods_MoyaGetWeatherFromOpenWeatherMap_MoyaGetWeatherFromOpenWeatherMapUITests.framework */,
+				08A66930716719277BE72593 /* Pods_MoyaGetWeatherFromOpenWeatherMapTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FAF0050425C2B73200F79AA6 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +125,8 @@
 				FAF0052625C2B73400F79AA6 /* MoyaGetWeatherFromOpenWeatherMapTests */,
 				FAF0053125C2B73400F79AA6 /* MoyaGetWeatherFromOpenWeatherMapUITests */,
 				FAF0050E25C2B73200F79AA6 /* Products */,
+				6B083732825B5F3F8D22501E /* Pods */,
+				8B5C50D32410AAF412F6F69F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +146,7 @@
 				FAF0051025C2B73200F79AA6 /* AppDelegate.swift */,
 				FAF0051225C2B73200F79AA6 /* SceneDelegate.swift */,
 				FAF0051425C2B73200F79AA6 /* ViewController.swift */,
+				FAF0055425C2D38B00F79AA6 /* Models */,
 				FAF0051625C2B73200F79AA6 /* Main.storyboard */,
 				FAF0051925C2B73400F79AA6 /* Assets.xcassets */,
 				FAF0051B25C2B73400F79AA6 /* LaunchScreen.storyboard */,
@@ -128,6 +173,39 @@
 			path = MoyaGetWeatherFromOpenWeatherMapUITests;
 			sourceTree = "<group>";
 		};
+		FAF0055425C2D38B00F79AA6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FAF0055625C2D4F100F79AA6 /* Managers */,
+				FAF0055525C2D39E00F79AA6 /* DataModels */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FAF0055525C2D39E00F79AA6 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				FAF0056025C2F02C00F79AA6 /* Weather.swift */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		FAF0055625C2D4F100F79AA6 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				FAF0055725C2D51400F79AA6 /* Request */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		FAF0055725C2D51400F79AA6 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				FAF0055825C2D54500F79AA6 /* RequestManager.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAF0053725C2B73400F79AA6 /* Build configuration list for PBXNativeTarget "MoyaGetWeatherFromOpenWeatherMap" */;
 			buildPhases = (
+				A4D04A7073F662B6A08D3C84 /* [CP] Check Pods Manifest.lock */,
 				FAF0050925C2B73200F79AA6 /* Sources */,
 				FAF0050A25C2B73200F79AA6 /* Frameworks */,
 				FAF0050B25C2B73200F79AA6 /* Resources */,
+				65370F26A15AF44A22373127 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +232,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAF0053A25C2B73400F79AA6 /* Build configuration list for PBXNativeTarget "MoyaGetWeatherFromOpenWeatherMapTests" */;
 			buildPhases = (
+				AD35E410082F49230F3119E6 /* [CP] Check Pods Manifest.lock */,
 				FAF0051F25C2B73400F79AA6 /* Sources */,
 				FAF0052025C2B73400F79AA6 /* Frameworks */,
 				FAF0052125C2B73400F79AA6 /* Resources */,
@@ -170,9 +251,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAF0053D25C2B73400F79AA6 /* Build configuration list for PBXNativeTarget "MoyaGetWeatherFromOpenWeatherMapUITests" */;
 			buildPhases = (
+				2E0BC5F49C0900E5F26072A5 /* [CP] Check Pods Manifest.lock */,
 				FAF0052A25C2B73400F79AA6 /* Sources */,
 				FAF0052B25C2B73400F79AA6 /* Frameworks */,
 				FAF0052C25C2B73400F79AA6 /* Resources */,
+				AD3406B0C39B30951184C00A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +336,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2E0BC5F49C0900E5F26072A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoyaGetWeatherFromOpenWeatherMap-MoyaGetWeatherFromOpenWeatherMapUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65370F26A15AF44A22373127 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoyaGetWeatherFromOpenWeatherMap/Pods-MoyaGetWeatherFromOpenWeatherMap-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoyaGetWeatherFromOpenWeatherMap/Pods-MoyaGetWeatherFromOpenWeatherMap-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoyaGetWeatherFromOpenWeatherMap/Pods-MoyaGetWeatherFromOpenWeatherMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4D04A7073F662B6A08D3C84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoyaGetWeatherFromOpenWeatherMap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD3406B0C39B30951184C00A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoyaGetWeatherFromOpenWeatherMap-MoyaGetWeatherFromOpenWeatherMapUITests/Pods-MoyaGetWeatherFromOpenWeatherMap-MoyaGetWeatherFromOpenWeatherMapUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoyaGetWeatherFromOpenWeatherMap-MoyaGetWeatherFromOpenWeatherMapUITests/Pods-MoyaGetWeatherFromOpenWeatherMap-MoyaGetWeatherFromOpenWeatherMapUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoyaGetWeatherFromOpenWeatherMap-MoyaGetWeatherFromOpenWeatherMapUITests/Pods-MoyaGetWeatherFromOpenWeatherMap-MoyaGetWeatherFromOpenWeatherMapUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD35E410082F49230F3119E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoyaGetWeatherFromOpenWeatherMapTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FAF0050925C2B73200F79AA6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +447,8 @@
 				FAF0051525C2B73200F79AA6 /* ViewController.swift in Sources */,
 				FAF0051125C2B73200F79AA6 /* AppDelegate.swift in Sources */,
 				FAF0051325C2B73200F79AA6 /* SceneDelegate.swift in Sources */,
+				FAF0055925C2D54500F79AA6 /* RequestManager.swift in Sources */,
+				FAF0056125C2F02C00F79AA6 /* Weather.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +621,7 @@
 		};
 		FAF0053825C2B73400F79AA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CDE88B5726D36461029FC63 /* Pods-MoyaGetWeatherFromOpenWeatherMap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +641,7 @@
 		};
 		FAF0053925C2B73400F79AA6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B677C438750355DE17747868 /* Pods-MoyaGetWeatherFromOpenWeatherMap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +661,7 @@
 		};
 		FAF0053B25C2B73400F79AA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B769A48D1803EB3256215757 /* Pods-MoyaGetWeatherFromOpenWeatherMapTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +684,7 @@
 		};
 		FAF0053C25C2B73400F79AA6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A070AE2F5D693645F0328CE7 /* Pods-MoyaGetWeatherFromOpenWeatherMapTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +707,7 @@
 		};
 		FAF0053E25C2B73400F79AA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C373E9AC6DC5B5D83AF1BD96 /* Pods-MoyaGetWeatherFromOpenWeatherMap-MoyaGetWeatherFromOpenWeatherMapUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +728,7 @@
 		};
 		FAF0053F25C2B73400F79AA6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67588F28DCFB4D5C7E68E3BB /* Pods-MoyaGetWeatherFromOpenWeatherMap-MoyaGetWeatherFromOpenWeatherMapUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

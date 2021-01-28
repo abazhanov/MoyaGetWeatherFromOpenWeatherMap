@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_MoyaGetWeatherFromOpenWeatherMap_MoyaGetWeatherFromOpenWeatherMapUITests : NSObject
+@end
+@implementation PodsDummy_Pods_MoyaGetWeatherFromOpenWeatherMap_MoyaGetWeatherFromOpenWeatherMapUITests
+@end

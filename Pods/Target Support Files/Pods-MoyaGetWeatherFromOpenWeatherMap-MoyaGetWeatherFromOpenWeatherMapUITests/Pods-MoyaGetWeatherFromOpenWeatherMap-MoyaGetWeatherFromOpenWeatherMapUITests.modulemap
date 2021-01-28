@@ -1,0 +1,6 @@
+framework module Pods_MoyaGetWeatherFromOpenWeatherMap_MoyaGetWeatherFromOpenWeatherMapUITests {
+  umbrella header "Pods-MoyaGetWeatherFromOpenWeatherMap-MoyaGetWeatherFromOpenWeatherMapUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
