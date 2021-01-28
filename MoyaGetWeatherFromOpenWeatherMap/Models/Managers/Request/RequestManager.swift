@@ -54,7 +54,7 @@ extension RequestManager: TargetType {
         case .getWheather:
             var params = [String: Any]()
            
-            params = ["lat":"56.326887", "lon":"44.005986", "appid":"a6c40d5ab6bb6b87ea73272d831fe569", "units":"units"]
+            params = ["lat":"56.326887", "lon":"44.005986", "appid":"a6c40d5ab6bb6b87ea73272d831fe569", "units":"units", "lang":"ru"]
             
             return params
         }

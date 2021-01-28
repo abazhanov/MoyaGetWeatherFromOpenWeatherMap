@@ -12,8 +12,7 @@ extension Weather: Mappable{
     func mapping(map: Map) {
         id <- map["id"]
         nameCity <- map["name"]
-       
-
+        weatherMain <- map["main"]
     }
 }
 
@@ -21,6 +20,7 @@ class Weather: NSObject {
 
     var id: Int?
     var nameCity: String?
+    var weatherMain: WeatherMain?
   
     required init?(map: Map) { super.init() }
 

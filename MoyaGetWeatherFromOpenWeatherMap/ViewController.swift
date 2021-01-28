@@ -43,8 +43,9 @@ class ViewController: UIViewController {
                             let wheather = Mapper<Weather>().map(JSON: json)
                             self.w =  wheather
                             //self.mergeDataSource(specializations: specializations)
-                            print("!!!!!!!!!!wheather!!!!!!!!!!! = \(wheather)")
-                            print(wheather?.id ?? "нету тут ничего")
+                            print("Wheather = \(wheather)")
+                            print(wheather?.id ?? "Нету тут ничего")
+                            print("Weater.temp", wheather?.weatherMain?.temp ?? "Пусто")
 
                         }
                     case .failure(let error):
